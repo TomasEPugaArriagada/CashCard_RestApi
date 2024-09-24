@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cashcard.CashCardJsonTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-09-16T23:11:23" hostname="DESKTOP-P7H5L95" time="0.179">
+  <properties/>
+  <testcase name="cashCardSerializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.091"/>
+  <testcase name="cashCardDeserializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.028"/>
+  <testcase name="cashCardListSerializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.052"/>
+  <testcase name="cashCardListDeserializationTest()" classname="com.example.cashcard.CashCardJsonTest" time="0.006"/>
+  <system-out><![CDATA[2024-09-16T20:11:22.987-03:00  INFO 38640 --- [cashcard] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.cashcard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-16T20:11:23.040-03:00  INFO 38640 --- [cashcard] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashCardJsonTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-16T20:11:23.221-03:00  INFO 38640 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Starting CashCardJsonTest using Java 21.0.2 with PID 38640 (started by TPuga in Z:\Tpuga\002 - Dev\SpringBootLearning\RESTApi_cashcard\cashcard)
+2024-09-16T20:11:23.221-03:00  INFO 38640 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : No active profile set, falling back to 1 default profile: "default"
+2024-09-16T20:11:23.555-03:00  INFO 38640 --- [cashcard] [    Test worker] com.example.cashcard.CashCardJsonTest    : Started CashCardJsonTest in 0.503 seconds (process running for 45.664)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
